@@ -9,8 +9,9 @@
 let kreatur;
 
 function setup() {
-  createCanvas(400, 400);
-  kreatur = new Kreatur(width/2, height/2, 50);
+  createCanvas(800, 800);
+  // kreatur = new Kreatur(width/2, height/2, 50);
+  kreatur = useCreature({x: width/2, y: height/2, size: 50});
 }
 
 function draw() {
